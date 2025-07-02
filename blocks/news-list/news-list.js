@@ -73,6 +73,6 @@ export default async function decorate(block) {
     block.append(ul);
   } catch (error) {
     block.textContent = 'Unable to load news';
-    console.error(error);
+    // console.error(error);
   }
 }
