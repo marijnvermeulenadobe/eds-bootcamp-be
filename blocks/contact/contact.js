@@ -21,7 +21,7 @@ export default function decorate(block) {
   mailA.className = '';
   mailP.innerHTML = '';
   mailP.append(mailA);
-  if(mailP) mailP.className += 'contact--email';
+  if (mailP) mailP.className += 'contact--email';
   wrapper.append(mailP);
 
   block.innerHTML = '';
